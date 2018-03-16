@@ -19,3 +19,10 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+
+#-------------打包忽略文件------------------
+#arcSoft人脸识别系统API
+-keep class com.arcsoft.**{*;}
+-dontwarn com.arcsoft.**
+
